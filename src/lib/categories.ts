@@ -1,0 +1,42 @@
+export interface CampaignCategory {
+  value: string;
+  label: string;
+}
+
+export const CAMPAIGN_CATEGORIES: CampaignCategory[] = [
+  { value: 'general', label: 'General' },
+  { value: 'ai', label: 'AI' },
+  { value: 'automotive', label: 'Automotive' },
+  { value: 'banking-payments', label: 'Banking & Payments' },
+  { value: 'books-literature', label: 'Books & Literature' },
+  { value: 'business-services', label: 'Business & Services' },
+  { value: 'business-opportunities', label: 'Business Opportunities' },
+  { value: 'community-social', label: 'Community & Social' },
+  { value: 'cryptocurrency-blockchain', label: 'Cryptocurrency & Blockchain' },
+  { value: 'digital-marketing', label: 'Digital Marketing' },
+  { value: 'ecommerce', label: 'E-commerce' },
+  { value: 'education', label: 'Education' },
+  { value: 'entertainment', label: 'Entertainment' },
+  { value: 'fashion-beauty', label: 'Fashion & Beauty' },
+  { value: 'finance', label: 'Finance' },
+  { value: 'freelancing', label: 'Freelancing' },
+  { value: 'gaming', label: 'Gaming' },
+  { value: 'health-fitness', label: 'Health & Fitness' },
+  { value: 'home-lifestyle', label: 'Home & Lifestyle' },
+  { value: 'information-technology', label: 'Information Technology' },
+  { value: 'jobs-careers', label: 'Jobs & Careers' },
+  { value: 'make-money-online', label: 'Make Money Online' },
+  { value: 'marketing-advertising', label: 'Marketing & Advertising' },
+  { value: 'mobile-apps', label: 'Mobile Apps' },
+  { value: 'movies-tv', label: 'Movies & TV' },
+  { value: 'news-media', label: 'News & Media' },
+  { value: 'online-courses', label: 'Online Courses' },
+  { value: 'photography', label: 'Photography' },
+  { value: 'real-estate', label: 'Real Estate' },
+  { value: 'science-technology', label: 'Science & Technology' },
+  { value: 'shopping', label: 'Shopping' },
+  { value: 'software', label: 'Software' },
+  { value: 'sports', label: 'Sports' },
+  { value: 'travel-tourism', label: 'Travel & Tourism' },
+  { value: 'websites-online-services', label: 'Websites & Online Services' },
+];
